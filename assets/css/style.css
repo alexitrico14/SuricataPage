@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --main-bg-color: #e83e8c;
+}
+
+.navbar {
+    background: var(--main-bg-color);
+}
+
+.navbar-brand img {
+    height: 3rem;
+}
+
+h1 {
+    color: #707070;
+    font-weight: 700;
+}
+
+#Ahora-aceptamos {
+    background: #17A2B8;
+}
+
+footer {
+    background: var(--main-bg-color);
+}
+
+footer img {
+    height: 6.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+    #productos .card {
+        margin-left: 50px;
+    }
+}
